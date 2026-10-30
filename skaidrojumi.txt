@@ -1,0 +1,18 @@
+J1. Pieeja pirms koda (4 p.)
+Tev iedod žurnālfailu ar 1200 rindām un jautā, kurā diennakts stundā kļūdu ir visvairāk.
+Apraksti savu rīcību soli pa solim. Kodu rakstīt nevajag.
+
+1. Atvēršu failu iekš logviewplus. 
+2.Iestatīšu laika filtru no vienas stundas sākuma līdz tās beigām, kā arī filtrēšu rindas ar ERROR.
+3.Iešu cauri visām diennakts 24 stundām un salīdzināšu, kurām ir vislielākais kļūdu skaits.
+
+
+J2. Objekti, nevis teksts (2 p.)
+PowerShell pa konveijeru nodod objektus, Bash nodod tekstu. Tev jāatlasa procesi, kas
+lieto vairāk par 200 MB atmiņas. Nosauc vienu praktisku ieguvumu, ko šajā uzdevumā
+dod objekti.
+
+Bash jāizmanto filtri, kas iet cauri visas izvades milzīgajam stringam.
+Taču powershell var attiecīgi uzreiz izvēlēties konkrētu objektu un pēc tam ierakstīt savu izvēlēto filtru, kurš ies cauri tikai ievadītajam objektam. "where WS -gt 200MB"
+Piemēram, meklējot failu diskā ir vieglāk un atrāk to atrast ar search rīku, ja ir zinama un norādīta direktorija(objekts), kur tā atrodas. Pārmeklējot visu disku(string izvadi) ar search aizņem daudz vairāk laika.
+Protams, šajā piemērā to aizņemtais laiks ir pārspīlēts salīdzinajumā ar bash un powershell, taču doma ir saprotama.
