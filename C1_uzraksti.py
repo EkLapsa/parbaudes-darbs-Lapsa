@@ -24,8 +24,8 @@ for rinda in open("sistema.log", encoding="utf-8"):
 print("Skaits:", len(rindas_limenis))
 for rinda in rindas_limenis:
     
-    with open("WARNING.csv", "w", newline="",
+    with open(f"{meklejamais}.csv", "w", newline="",
         encoding="utf-8-sig") as f:
         r = csv.writer(f, delimiter=";")
         for meklejamais in rindas_limenis:
-            r.writerow([meklejamais])
+            r.writerow([rinda])
